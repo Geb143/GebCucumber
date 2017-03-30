@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.geb.bdd.iml" filepath="$PROJECT_DIR$/.idea/modules/org.geb.bdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.geb.bdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.geb.bdd_main.iml" group="org.geb.bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.geb.bdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.geb.bdd_test.iml" group="org.geb.bdd" />
+    </modules>
+  </component>
+</project>

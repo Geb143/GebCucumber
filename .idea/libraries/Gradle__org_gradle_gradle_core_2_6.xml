@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.gradle:gradle-core:2.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gradle/gradle-core/2.6/b259bbb901da6074d8cbe354d30a23db017451c1/gradle-core-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gradle/gradle-core/2.6/e74016e90d9923030efcb142c1c872fcb533e971/gradle-core-2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

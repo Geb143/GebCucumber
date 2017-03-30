@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.easyb:easyb-core:1.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.easyb/easyb-core/1.6/cdf086fba63143ae8b05608192239d302d7f63d3/easyb-core-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.easyb/easyb-core/1.6/f88a9a3cd671ee8fde55c5d355eb58c2c9056efa/easyb-core-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

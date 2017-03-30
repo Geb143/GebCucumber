@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.gradle:gradle-base-services:2.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gradle/gradle-base-services/2.6/f00b4746033020bc11f9ca6486e4689a29f258c8/gradle-base-services-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gradle/gradle-base-services/2.6/8a4d69bb9148e3491d6c626e8312b3f5a4d2eef/gradle-base-services-2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

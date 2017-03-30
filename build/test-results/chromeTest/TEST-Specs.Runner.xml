@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Specs.Runner" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-30T05:51:08" hostname="HW1503" time="9.591">
+  <properties/>
+  <testcase name="feature[0](Feature-One)" classname="Specs.Runner" time="9.591"/>
+  <system-out><![CDATA[Feature: Feature-One
+
+
+  Scenario: First Test Case                                                ?[90m# src/test/resources/features/wiki.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI search the text "?[0m?[32m?[1mAutomation Testing?[0m?[32m" in Wiki Home Page?[0m         ?[90m# WikiSpec.I_Search_For_String_In_Wiki_Home_Page(String)?[0m
+    ?[32mAnd ?[0m?[32mI open the first link and verify the title to be "?[0m?[32m?[1mTest automation?[0m?[32m"?[0m ?[90m# WikiSpec.I_Open_First_Link(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 39745
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

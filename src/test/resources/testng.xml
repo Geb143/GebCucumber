@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Viralgains Test Suite" parallel="tests">
+  <listeners>
+    <listener class-name="Listeners.TestNGExecutionListener"/>
+  </listeners>
+  <test name="Viralgains Test">
+    <classes>
+      <class name="Specs.Runner"/>
+    </classes>
+  </test> <!-- Viralgains Test -->
+</suite> <!-- Viralgains Test Suite -->
