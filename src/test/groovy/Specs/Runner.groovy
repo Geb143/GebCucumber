@@ -10,7 +10,7 @@ import org.testng.annotations.Test
  */
 
 @CucumberOptions(
-features = ["src/test/resources/features/wiki.feature"],
+features = ["src/test/resources/features/wikiLogin.feature"],
         format = ["html:target/site/cucumber-pretty", "pretty","rerun:target/rerun.txt","json:target/cucumber.json"])
 class Runner extends AbstractTestNGCucumberTests {
 
