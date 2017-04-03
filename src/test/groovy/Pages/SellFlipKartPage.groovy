@@ -16,27 +16,27 @@ class SellFlipKartPage extends BasePage{
         click {sellFlipKartModule.sellSmartLnk}
         click {sellFlipKartModule.insightAndTrends}
 //        at={sellFlipKartModule.activePage}
-         assert driver.findElement(By.cssSelector(".category>a.active")).getText().equalsIgnoreCase("Insights and trends")
+
     }
     def leaderSpk(){
         click {sellFlipKartModule.sellOnFKartLnk}
         click {sellFlipKartModule.sellSmartLnk}
         click {sellFlipKartModule.leaderSpk}
 //        at={sellFlipKartModule.activePage}
-        assert driver.findElement(By.cssSelector(".category>a.active")).getText().equalsIgnoreCase("Leaderspeak")
+
     }
     def succStories(){
         click {sellFlipKartModule.sellOnFKartLnk}
         click {sellFlipKartModule.sellSmartLnk}
         click {sellFlipKartModule.succStories}
 //        at={sellFlipKartModule.activePage}
-        assert driver.findElement(By.cssSelector(".category>a.active")).getText().equalsIgnoreCase("Success Stories")
+
     }
     def startSelling(){
         click {sellFlipKartModule.sellOnFKartLnk}
         click {sellFlipKartModule.sellSmartLnk}
         click {sellFlipKartModule.startSelling}
 //        at={sellFlipKartModule.fpSellerLogo}
-        assert driver.findElement(By.cssSelector(".logo")).isDisplayed()
+
     }
 }
