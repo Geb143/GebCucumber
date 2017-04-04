@@ -10,8 +10,9 @@ import org.testng.annotations.Test
  */
 
 @CucumberOptions(
-features = ["src/test/resources/features/SellFlipKart.feature"],
-        format = ["html:target/site/cucumber-pretty", "pretty","rerun:target/rerun.txt","json:target/cucumber.json"])
+        features = ["src/test/resources/features/SellFlipKart.feature"],
+        format = ["html:target/site/cucumber-pretty", "pretty","rerun:target/rerun.txt","json:target/cucumber.json"],
+        tags = [""])
 class Runner extends AbstractTestNGCucumberTests {
 
     @BeforeSuite

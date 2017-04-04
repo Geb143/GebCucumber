@@ -52,6 +52,7 @@ drivers.each{ browser->
         outputs.upToDateWhen { false }
         doFirst {
             testNGXMLCreator.execute()
+            updateRunnerClasswithTags(System.getProperty("feature.file.tags"), "src/test/groovy/Specs/Runner.groovy")
         }
         useTestNG {
             convertPropertiesToSystemProperties()
@@ -80,6 +81,39 @@ public void convertPropertiesToSystemProperties() {
     }
 }
 
+public void updateRunnerClasswithTags(String value, String filepath) {
+
+    File file = new File(filepath);
+    FileReader fr = new FileReader(file);
+    List<String> updated = new ArrayList<String>();
+    String s;
+    try {
+        BufferedReader br = new BufferedReader(fr);
+        while ((s = br.readLine()) != null) {
+            if (s.contains("tags")) {
+                if(value.equals("")){
+                    s = 'tags = [' + value + '])';
+                }
+                else {
+                    s = 'tags = ["' + value + '"])';
+                }
+                updated.push(s);
+            } else {
+                updated.push(s);
+            }
+        }
+        FileWriter fw = new FileWriter(filepath);
+        for (int i = 0; i < updated.size(); i++) {
+            fw.write(updated.get(i));
+            fw.write("\n");
+        }
+        fw.close();
+    } catch (Exception e) {
+        System.out.println(e);
+    } finally {
+
+    }
+}
 /*public void editTestNGParams() {
     FileInputStream file = new FileInputStream("./src/test/resources/project.properties");
     Properties props = new Properties();

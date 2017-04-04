@@ -8,7 +8,11 @@ import geb.Module
 class DashboardModule extends Module{
 
     static content = {
-        searchWikipediaTextField            {$("input",'type':'search')}
-        firstHeadingTitleText               {$("#firstHeading").text()}
+        searchProduct            {$("input",'name':'q')}
+        search                   {$("._2BhAHa")}
+        firstProduct             {$("div", text:"Moto M (Grey, 64 GB)")}
+        addtoCart                {$("._2AkmmA._3Plo8Q._19RW-r")}
+        cart                     {$("._3NFO0d")}
+        placeOrder               {$("._2AkmmA._3qVHVC._7UHT_c")}
     }
 }
